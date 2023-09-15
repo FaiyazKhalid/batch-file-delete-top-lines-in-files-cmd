@@ -10,7 +10,7 @@ paste this code
 
 @echo off
 for %%F in ("*.html") do (
-  more +17 "%%F" >"%%F.html"
+  more +39 "%%F" >"%%F.html"
   move /y "%%F.html" "%%F" >nul
   echo %%F
 )
